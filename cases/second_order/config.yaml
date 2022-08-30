@@ -1,0 +1,8 @@
+x_min: -30
+x_max: 30
+x_interval: 1
+v_min: -4
+v_max: 4
+v_interval: 2
+a: 2
+dx_atk: 5

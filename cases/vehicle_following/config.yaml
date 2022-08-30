@@ -1,0 +1,14 @@
+x_min: 0
+x_max: 800
+
+x_start_lead: 10
+v_start_lead: 0
+a_start_lead: 2
+v_max_lead: 10
+
+x_start_follow: 0
+v_start_follow: 0
+a_start_follow: 2
+v_max_follow: 10
+
+
