@@ -30,13 +30,13 @@ To use our system verification, a finite state machine file representing the sys
     ...
     ...
     ```
-    The first line is the total number of the states of this FSM. Each following lines represents a state (starts from state 1). The first(second) number shows the state index of the transition result after input 0(1). And the last number tells that the state is unsafe or not.
+    The first line is the total number of the states of this FSM. Each following lines represents a state (starts from state 0). The first(second) number shows the state index of the transition result after input 0(1). And the last number tells that the state is unsafe or not.
 
-    For exmple, in a FSM, there are 5 states in total. State 1 will transition to state 2(3) after having 0(1) and it is a safe state. Then the first two lines of the FSM file will be as follows:
+    For exmple, in a FSM, there are 5 states in total. State 0 will transition to state 1(2) after having 0(1) and it is a safe state. Then the first two lines of the FSM file will be as follows:
 
     ```
     5
-    2 3 0
+    1 2 0
     ...
     ...
     ```
